@@ -1,0 +1,15 @@
+﻿  TD_AES.cpp
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(38,17): error C2440: '=' : impossible de convertir de 'initializer list' en 'STATE (*)'
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(38,17): message : L'initialiseur contient trop d'éléments
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(45,24): error C2440: 'initialisation' : impossible de convertir de 'initializer list' en 'STATE (*)'
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(45,24): message : L'initialiseur contient trop d'éléments
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(68,24): error C2664: 'void ShiftRows(uint8_t [][4])' : impossible de convertir l'argument 1 de 'STATE (*)' en 'uint8_t [][4]'
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(68,19): message : Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+C:\Users\motyl\source\repos\TD_AES\TD_AES\Header.h(27,6): message : voir la déclaration de 'ShiftRows'
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(69,25): error C2664: 'void MixColumns(uint8_t [][4])' : impossible de convertir l'argument 1 de 'STATE (*)' en 'uint8_t [][4]'
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(69,20): message : Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+C:\Users\motyl\source\repos\TD_AES\TD_AES\Header.h(29,6): message : voir la déclaration de 'MixColumns'
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(73,20): error C2664: 'void ShiftRows(uint8_t [][4])' : impossible de convertir l'argument 1 de 'STATE (*)' en 'uint8_t [][4]'
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(73,15): message : Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+C:\Users\motyl\source\repos\TD_AES\TD_AES\Header.h(27,6): message : voir la déclaration de 'ShiftRows'
+C:\Users\motyl\source\repos\TD_AES\TD_AES\TD_AES.cpp(141,26): error C2109: un indice requiert un type tableau ou pointeur
